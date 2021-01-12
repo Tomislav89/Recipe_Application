@@ -1,6 +1,6 @@
 package guru.springframework.recipeapp.controllers;
 
-import guru.springframework.recipeapp.model.Recipe;
+import guru.springframework.recipeapp.domain.Recipe;
 import guru.springframework.recipeapp.services.RecipeService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

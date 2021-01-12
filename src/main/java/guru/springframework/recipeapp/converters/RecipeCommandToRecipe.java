@@ -5,9 +5,11 @@ import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.fasterxml.jackson.databind.util.Converter;
 import com.sun.istack.Nullable;
 import guru.springframework.recipeapp.commands.RecipeCommand;
-import guru.springframework.recipeapp.model.Recipe;
+import guru.springframework.recipeapp.domain.Recipe;
 import lombok.Synchronized;
+import org.springframework.stereotype.Component;
 
+@Component
 public class RecipeCommandToRecipe implements Converter<RecipeCommand, Recipe> {
 
 private final CategoryCommandToCategory categoryConveter;

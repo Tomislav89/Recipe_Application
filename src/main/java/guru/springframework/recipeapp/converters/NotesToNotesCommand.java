@@ -5,9 +5,11 @@ import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.fasterxml.jackson.databind.util.Converter;
 import com.sun.istack.Nullable;
 import guru.springframework.recipeapp.commands.NotesCommand;
-import guru.springframework.recipeapp.model.Notes;
+import guru.springframework.recipeapp.domain.Notes;
 import lombok.Synchronized;
+import org.springframework.stereotype.Component;
 
+@Component
 public class NotesToNotesCommand implements Converter<Notes, NotesCommand> {
 
     @Synchronized

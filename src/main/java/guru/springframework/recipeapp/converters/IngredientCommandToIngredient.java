@@ -5,7 +5,7 @@ import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.fasterxml.jackson.databind.util.Converter;
 import com.sun.istack.Nullable;
 import guru.springframework.recipeapp.commands.IngredientCommand;
-import guru.springframework.recipeapp.model.Ingredient;
+import guru.springframework.recipeapp.domain.Ingredient;
 
 public class IngredientCommandToIngredient implements Converter<IngredientCommand, Ingredient> {
 

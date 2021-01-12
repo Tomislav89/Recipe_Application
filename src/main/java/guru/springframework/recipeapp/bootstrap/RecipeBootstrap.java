@@ -1,6 +1,6 @@
 package guru.springframework.recipeapp.bootstrap;
 
-import guru.springframework.recipeapp.model.*;
+import guru.springframework.recipeapp.domain.*;
 import guru.springframework.recipeapp.repositories.CategoryRepository;
 import guru.springframework.recipeapp.repositories.RecipeRepository;
 import guru.springframework.recipeapp.repositories.UnitOfMeasureRepository;

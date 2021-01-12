@@ -1,6 +1,6 @@
 package guru.springframework.recipeapp.commands;
 
-import guru.springframework.recipeapp.model.Difficulty;
+import guru.springframework.recipeapp.domain.Difficulty;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

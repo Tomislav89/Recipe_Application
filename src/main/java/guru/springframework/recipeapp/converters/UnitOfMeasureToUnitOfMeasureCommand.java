@@ -5,9 +5,11 @@ import com.fasterxml.jackson.databind.type.TypeFactory;
 import com.fasterxml.jackson.databind.util.Converter;
 import com.sun.istack.Nullable;
 import guru.springframework.recipeapp.commands.UnitOfMeasureCommand;
-import guru.springframework.recipeapp.model.UnitOfMeasure;
+import guru.springframework.recipeapp.domain.UnitOfMeasure;
 import lombok.Synchronized;
+import org.springframework.stereotype.Component;
 
+@Component
 public class UnitOfMeasureToUnitOfMeasureCommand  implements Converter<UnitOfMeasure, UnitOfMeasureCommand> {
 
     @Synchronized
